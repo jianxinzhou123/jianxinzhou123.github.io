@@ -43,6 +43,10 @@ $(document).ready(function () {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
     },
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: true,
+    },
   });
 
   // Dark light mode
